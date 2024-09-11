@@ -1,29 +1,47 @@
-This project is a simplified clone of the Airbnb platform, built using modern web development technologies. The application allows users to view, list, and book properties. It is designed to provide a basic yet functional version of the core features of Airbnb.
+Wanderlust
 
-Features
-User authentication (Sign up, Login, Logout)
-View property listings with details such as title, description, price, and location
-Upload images for property listings
-Search for properties by location or country
-Book a property for a specific date range
-Responsive design for both desktop and mobile
-Tech Stack
-Frontend: HTML, CSS, JavaScript
-Backend: Node.js, Express.js
-Database: MongoDB (Mongoose for schema and model management)
-Authentication: JWT (JSON Web Tokens)
-File Upload: Multer for handling image uploads
-Cloud Storage: Cloudinary  for hosting images
-Installation
-Prerequisites
-Make sure you have the following installed on your machine:
+https://delta-project-8wry.onrender.com/listings
 
-Node.js
-MongoDB
-Git
+Project Description:
 
-Usage
-Sign up as a new user.
-Log in to your account.
-Browse through property listings.
-Create your own property listing with images.
+Wanderlust is a web application designed for travel enthusiasts to explore new destinations, cultures, and experiences. Built using Node.js, Express.js, and MongoDB, this application allows users to discover and share their travel experiences.
+
+Features:
+
+User authentication and authorization using Passport.js
+Image upload and storage using Multer and Cloudinary
+Interactive maps using TomTom API
+Responsive design using Bootstrap
+Error handling for a seamless user experience
+Tech Stack:
+
+Backend:
+Node.js (runtime environment)
+Express.js (web framework)
+MongoDB (database)
+Multer (image upload middleware)
+Passport.js (authentication framework)
+Frontend:
+Bootstrap (CSS framework for responsive design)
+Image Storage:
+Cloudinary (cloud-based image storage and management)
+Maps:
+TomTom (API for interactive maps)
+Error Handling:
+Custom error handling for a seamless user experience
+Other Libraries and Tools:
+Various other libraries and tools to enhance the application's functionality and performance
+Installation:
+
+Clone the repository: git clone https://github.com/kalyaniyash81/delta-project
+Install dependencies: npm install
+Start the server: npm start
+Usage:
+
+Register or login to start exploring destinations
+Upload images and share your travel experiences
+Use interactive maps to discover new places
+Enjoy a seamless user experience with robust error handling
+Contributing:
+
+Contributions are welcome! Please fork the repository, make changes, and submit a pull request.
